@@ -4,13 +4,23 @@
 }
 
 .container {
-  margin: auto;
+  margin: 0 auto;
   max-width: 1170px;
+}
+
+.sitebar {
+  width: 100%;
+  height: 100px;
+  border: 1px solid black;
+  padding: auto 0;
+}
+
+.background {
+  width: 1720px;
 }
 
 .logo-container {
   float: left;
-  border: 1px solid black;
 }
 
 .phone-container {
@@ -19,17 +29,27 @@
 
 .phone__number {
   display: inline-block;
-  margin-left: 20px;
+  font-size: 24px;
 }
 
 .phone__icon {
-  display: block;
+  display: inline-block;
   width: 20px;
   height: 20px;
   margin: 0 5px;
   background-image: url("../img/phone-icon.png");
   background-position: 50% 50%;
-  border: 1px solid black;
+  background-repeat: no-repeat;
+}
+
+.phone__discription {
+  display: block;
+  text-align: right;
+}
+
+.logo {
+  display: inline-block;
+  background-image: url("../img/logo.png");
   background-repeat: no-repeat;
 }
 /*# sourceMappingURL=style.css.map */
